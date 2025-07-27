@@ -1,7 +1,7 @@
 from flask import Flask, render_template, redirect, send_file, url_for, request
 import os
 from camera import start_camera
-from attendance import recognize_faces, recognize_faces_from_image  # ✅ ADD THIS
+from attendance import recognize_faces, recognize_faces_from_image  
 from train_model import train_model
 
 app = Flask(__name__)
